@@ -2,7 +2,7 @@ continuously-test
 =================
 repo that we can push changes to
 
-xfoo
+foo
 boo
 Hello
 World
