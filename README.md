@@ -8,3 +8,4 @@ World
 Again
 And again
 Foo
+Docker magic
