@@ -7,7 +7,7 @@ RUN chmod go+w,u+s /tmp
 # Fix the locale
 RUN localedef -c -i en_AU -f UTF-8 en_AU.UTF-8 || :
 
-# RUN apt-get -yq update && apt-get -yq upgrade
+RUN apt-get -yq update && apt-get -yq upgrade
 
 # Requirements for RoR
 # RUN apt-get -yq install ruby-dev
