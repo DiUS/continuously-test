@@ -31,7 +31,7 @@ RUN sudo chown -R hackday.hackday /opt/hackday
 
 # Set our base directory
 WORKDIR /opt/hackday
-RUN git -v
+RUN git --version
 
 # EXPOSE 3000
 
